@@ -20,12 +20,12 @@ export default function BetterNavbar() {
 
   return (
     <>
-      <Box
-        bg={useColorModeValue('#212832', 'gray.900')}
-        px={4}
-        borderBottom="1px solid"
-        borderColor={useColorModeValue('gray.200', 'gray.700')}
-      >
+     <Box
+    bg={useColorModeValue('white', 'gray.800')} // Light color for background in light mode and darker in dark mode
+    px={4}
+    borderBottom="1px solid"
+    borderColor={useColorModeValue('gray.300', 'gray.600')} // Lighter border color in light mode and slightly darker in dark mode
+>
         <Flex h={16} alignItems="center" justifyContent="space-between">
           <IconButton
             bg="transparent"

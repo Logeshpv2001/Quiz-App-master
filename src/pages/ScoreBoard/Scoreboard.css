@@ -15,7 +15,7 @@
 .score {
     /* border: 6px solid rgba(128, 128, 128, 0.345); */
     font-size: 1.2rem;
-    color: #A45EDA;
+    color: #da665e;
     background-color: white;
     border-radius: 50%;
     padding: 3rem 1.8rem;
@@ -91,7 +91,7 @@
 }
 
 .home-btn:hover {
-    background-color: rgba(236, 185, 255, 0.638) !important;
+    background-color: rgba(164, 4, 4, 0.425) !important;
     cursor: pointer;
 }
 
